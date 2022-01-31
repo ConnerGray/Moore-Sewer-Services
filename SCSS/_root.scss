@@ -1,0 +1,50 @@
+/* COLORS */
+$yellow: #fbc630;
+$dark: #222222;
+$white: #f9f9f9;
+
+/* FONT */
+$font: 'Sen', sans-serif;
+
+/* GLOBAL STYLING */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: $font;
+   
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+body, button {
+    font-family: $font;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+}
+
+a:hover {
+    color: $yellow;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {font-size: 3.2rem;}
+h2 {font-size: 2.5rem}
+p  {font-size: 1.2rem; line-height: 25px;}

@@ -1,0 +1,23 @@
+// MAIN BUTTON
+.btn {
+    background-color: $yellow;
+    color: $dark;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+// Main btn hover
+.btn:hover {
+    color: $white;
+}
+
+.hero-btn, .about-btn {
+    color: $white;
+}
+
+.hero-btn:hover, .about-btn:hover {
+    color: $dark;
+}

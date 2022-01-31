@@ -1,0 +1,188 @@
+@import "root";
+@import "buttons";
+
+/* INFO SECTION */
+#info-section {
+    background-color: $yellow;
+    color: $dark;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.info-p {
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* NAVIGATION */
+nav {
+    width: 100%;
+    padding: 20px 0;
+    background-color: $dark;
+    z-index: 999;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    flex-grow: 1;
+    display: block;
+}
+
+.nav-logo img {
+   width: 30%;
+}
+
+.nav-links {
+    font-size: 1rem;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    z-index: 999;
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: $white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+/* HERO */
+#hero-section {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(180deg,rgba(37,37,37,.56),rgba(37,37,37,.56)),url(/img/plumber-man-optimized.jpg);
+    background-size: cover;
+    background-position: right;
+    color: $white;
+}
+
+.hero-content {
+    width: 50%;
+
+    p {
+        margin: 20px 0;
+    }
+}
+
+/* services-section */
+#services-section {
+    margin: 50px 0;
+}
+
+.services-content {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        text-align: center;
+    }
+    .small-heading {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+.services-cards {
+    display: flex;
+    margin: 30px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    h3 {
+        margin: 20px 0 20px 0;
+    }
+}
+
+/* ABOUT */
+#about {
+    margin: 50px 0;
+}
+
+.about-content {
+    display: flex;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+
+    h2 {
+        margin: 0 0 20px 0;
+    }
+
+    button {
+        margin-top: 20px;
+        width: 25%;
+    }
+}
+
+.about-right {
+    width: 50%;
+    text-align: center;
+
+    img {
+        height: 600px;
+        width: auto;
+    }
+}
+
+/* FOOTER */
+#footer {
+    background-color: $dark;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+
+    .footer-logo {
+        width: 20%;
+    }
+}
+
+.facebook {
+  height: 40px;
+  width: 40px;
+}
+
+.trademark {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+
+    h4 {
+        color: $white;
+        font-size: 0.8rem;
+    }
+
+    p {
+        color: $gray;
+        font-size: 0.7rem;
+    }
+}
+
+@import "mediaqueries";

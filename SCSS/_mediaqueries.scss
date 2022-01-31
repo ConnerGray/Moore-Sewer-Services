@@ -1,0 +1,79 @@
+/* Tablet */
+@media screen and (max-width: 1000px) {
+/* Mobile NAV */
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        top: 15vh;
+        height: 100vh;
+        padding-bottom: 100px;
+        background-color: $dark;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 50%;
+        transform: translatex(100%);
+        transition: transform 0.4s ease-in;
+    }
+    
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-active {
+        transform: translatex(0%);
+    }
+    
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    
+    .toggle .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    .toggle .line2 {
+        opacity: 0;
+    }
+    .toggle .line3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    //HERO SECTION
+
+    #hero-section {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    //SERVICES SECTION
+
+    .services-cards {
+        flex-direction: column;
+    }
+
+    .card-img {
+        height: 5px;
+    }
+
+    //ABOUT SECTION
+
+    .about-right {
+        img {
+            height: 400px;
+        }
+    }
+}

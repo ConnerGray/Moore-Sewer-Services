@@ -1,7 +1,9 @@
 @import "root";
 @import "buttons";
 
-/* INFO SECTION */
+/******************** 
+*   INFO SECTION    *
+*********************/
 #info-section {
     background-color: $yellow;
     color: $dark;
@@ -16,7 +18,9 @@
     font-size: 1.2rem;
 }
 
-/* NAVIGATION */
+/******************** 
+*    NAVIGATION     *
+*********************/
 nav {
     width: 100%;
     padding: 20px 0;
@@ -60,7 +64,9 @@ nav {
     transition: all 0.3s ease;
 }
 
-/* HERO */
+/******************** 
+*       HERO        *
+*********************/
 #hero-section {
     height: 70vh;
     display: flex;
@@ -74,13 +80,15 @@ nav {
 
 .hero-content {
     width: 50%;
-
-    p {
-        margin: 20px 0;
-    }
 }
 
-/* services-section */
+.hero-p {
+    margin: 20px 0;
+}
+
+/******************** 
+*  SERVICES SECTION *
+*********************/
 #services-section {
     margin: 50px 0;
 }
@@ -113,7 +121,9 @@ nav {
     }
 }
 
-/* ABOUT */
+/******************** 
+*       ABOUT       *
+*********************/
 #about {
     margin: 50px 0;
 }
@@ -127,15 +137,15 @@ nav {
     flex-direction: column;
     justify-content: center;
     width: 50%;
+}
 
-    h2 {
-        margin: 0 0 20px 0;
-    }
+.about-h2 {
+    margin: 0 0 20px 0;
+}
 
-    button {
-        margin-top: 20px;
-        width: 25%;
-    }
+.about-btn {
+    margin-top: 20px;
+    width: 25%;
 }
 
 .about-right {
@@ -148,7 +158,9 @@ nav {
     }
 }
 
-/* FOOTER */
+/******************** 
+*      FOOTER       *
+*********************/
 #footer {
     background-color: $dark;
     padding: 20px 0;
@@ -157,10 +169,11 @@ nav {
 .footer-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
 
-    .footer-logo {
-        width: 20%;
-    }
+.footer-logo {
+    height: 20px;
 }
 
 .facebook {
@@ -180,7 +193,7 @@ nav {
     }
 
     p {
-        color: $gray;
+        color: $white;
         font-size: 0.7rem;
     }
 }

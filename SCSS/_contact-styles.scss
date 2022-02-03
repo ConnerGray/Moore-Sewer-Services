@@ -1,0 +1,44 @@
+#contact-section {
+    margin: 50px 0;
+}
+
+.contact-page-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-h2 {
+    margin-bottom: 20px;
+}
+
+.phone-number {
+    margin-top: 20px;
+}
+
+// FORM
+
+.contact-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field-label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.text-field, .message-field {
+    padding: 10px;
+    border-radius: 5px;
+    border: $dark 1px solid;
+    margin: 0px 0 20px 0;
+}
+
+.message-field {
+    height: 6rem;
+}
+
+.contact-btn {
+    width: 25%;
+}

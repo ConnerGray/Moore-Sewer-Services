@@ -26,7 +26,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./CSS/style.css">
 
-    <title>Moore Sewer Services | Services</title>
+    <title>Moore Sewer Services | About Us</title>
 </head>
 <body>
     <!-- ============================================ -->
@@ -72,76 +72,39 @@
     </nav>
 
     <!-- ============================================ -->
-    <!--                   SERVICES                   -->
+    <!--                   Contact                    -->
     <!-- ============================================ -->
-    <section id="services-page-section">
+    <section id="contact-section">
         <div class="container">
-            <div class="services-page-content">
-                <p class="small-heading"> OUR SERVICES </p>
-                <h2 class="services-page-h2"> WHAT WE OFFER</h2>
+            <div class="contact-page-content">
+                <aside class="contact-info">
+                    <h2 class="contact-h2">Contact Us</h2>
 
-                <!-- CARDS -->
-                <div class="services-page-cards">
-                    <div class="services-page-card">
-                        <img src="img/filler-img.png" class="services-card-img">
-                        <h3 class="services-page-h3">Card 1</h3>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
-                        </p>
-                    </div>
-                    <div class="services-page-card">
-                        <img src="img/filler-img.png" class="services-card-img">
-                        <h3 class="services-page-h3">Card 2</h3>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
-                        </p>
-                    </div>
-                    <div class="services-page-card">
-                        <img src="img/filler-img.png" class="services-card-img">
-                        <h3 class="services-page-h3">Card 3</h3>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <p class="contact-p">Moore Sewer Services</p>
+                    <p class="contact-p">Dayton, OH</p>
 
-    <!-- ============================================ -->
-    <!--             ADDITIONAL SERVICES              -->
-    <!-- ============================================ -->
-    <section id="additional-services">
-        <div class="container">
-            <div class="as-content">
-                <div class="services-left">
-                    <p class="small-heading">ADDITIONAL SERVICES</p>
-                    <h2 class="services-page-h2">WE OFFER MORE</h2>
+                    <p class="contact-p phone-number"><strong>Phone:</strong> (937) 830-5524</p>
+                </aside>
 
-                    <p class="services-page-p">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
-                    </p>
+                <div class="form-wrapper">
+                    <h2 class="contact-h2"> Contact Form</h2>
+                    <p class="contact-p">Send us a message and we'll get back to you as soon as we can!</p>
 
-                    <button class="btn service-btn">Request Service</button>
-                </div>
+                    <form class="contact-form" name="Contact-Form" netlify data-netlify="true">
+                        <!-- Name -->
+                        <label for="name" class="field-label">Name</label>
+                        <input type="text" class="text-field" maxlength="256" name="name" data-name="Name" id="name">
 
-                <div class="services-right">
-                    <div class="service">
-                        <img src="img/checkmark.png" alt="checkmark" class="checkmark">
-                        <p class="services-page-p">Additional Service</p>
-                    </div>
-                    <div class="service">
-                        <img src="img/checkmark.png" alt="checkmark" class="checkmark">
-                        <p class="services-page-p">Additional Service</p>
-                    </div>
-                    <div class="service">
-                        <img src="img/checkmark.png" alt="checkmark" class="checkmark">
-                        <p class="services-page-p">Additional Service</p>
-                    </div>
-                    <div class="service">
-                        <img src="img/checkmark.png" alt="checkmark" class="checkmark">
-                        <p class="services-page-p">Additional Service</p>
-                    </div>
+                        <!-- Email -->
+                        <label for="email" class="field-label">Email Address</label>
+                        <input type="email" class="text-field" maxlength="256" name="email" data-name="Email" id="email" required="">
+
+                        <!-- Message -->
+                        <label class="field-label">Message</label>
+                        <input type="text" class="message-field" maxlength="256" name="field" data-name="Message" id="field" required="">
+
+                        <input type="submit" value="Submit" data-wait="Please wait..." class="btn contact-btn">
+                    </form>
                 </div>
             </div>
         </div>

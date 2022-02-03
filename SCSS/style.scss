@@ -1,5 +1,6 @@
 @import "root";
 @import "buttons";
+@import "about-styles";
 
 /******************** 
 *   INFO SECTION    *
@@ -98,10 +99,6 @@ nav {
     flex-direction: column;
 
     h2 {
-        text-align: center;
-    }
-    .small-heading {
-        font-size: 1rem;
         text-align: center;
     }
 }

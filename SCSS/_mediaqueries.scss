@@ -77,6 +77,30 @@
             height: 400px;
         }
     }
+
+    /**************** 
+        ABOUT PAGE
+    *****************/
+    .about-page-headings {
+        text-align: center;
+    }
+
+    .about-page-p {
+        width: 100%;
+    }
+
+    .about-page-cards {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-card {
+        margin: 20px 0;
+    }
+
+    /**************** 
+      SERVICES PAGE
+    *****************/
 }
 
 /* MOBILE */

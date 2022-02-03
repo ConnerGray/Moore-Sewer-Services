@@ -103,6 +103,17 @@
     .services-page-cards {
         flex-direction: column;
     }
+
+    /**************** 
+       Contact PAGE
+    *****************/
+    .contact-page-content {
+        flex-direction: column;
+    }
+
+    .form-wrapper {
+        margin-top: 30px;
+    }
 }
 
 /* MOBILE */
@@ -169,16 +180,5 @@
     .services-right {
         margin-top: 30px;
         align-items: flex-start;
-    }
-
-    /**************** 
-       Contact PAGE
-    *****************/
-    .contact-page-content {
-        flex-direction: column;
-    }
-
-    .form-wrapper {
-        margin-top: 30px;
     }
 }   

@@ -1,5 +1,5 @@
 /* Tablet */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1165px) {
 /* Mobile NAV */
     .nav-links {
         position: absolute;
@@ -75,6 +75,10 @@
         img {
             height: 400px;
         }
+    }
+
+    .about-btn {
+        width: 40%;
     }
 
     /**************** 

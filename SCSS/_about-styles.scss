@@ -20,8 +20,10 @@
 
 /* CARDS */
 .about-page-cards {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 30px 0;
 }
 
 .about-page-cards {

@@ -62,7 +62,7 @@
     //SERVICES SECTION
 
     .services-cards {
-        flex-direction: column;
+        grid-template-columns: 1fr;
     }
 
     .card-img {
@@ -93,7 +93,7 @@
     }
 
     .about-page-cards {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         text-align: center;
     }
 

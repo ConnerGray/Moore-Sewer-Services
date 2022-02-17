@@ -1,10 +1,18 @@
 #contact-section {
-    margin: 50px 0 100px 0;
+    margin: 50px 0;
+    height: 75vh;
+    display: flex;
 }
 
 .contact-page-content {
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.contact-info {
+    margin-bottom: 100px;
 }
 
 .contact-h2 {

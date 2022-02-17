@@ -1,5 +1,5 @@
 /* Tablet */
-@media screen and (max-width: 1165px) {
+@media screen and (max-width: 1430px) {
 /* Mobile NAV */
     .nav-links {
         position: absolute;
@@ -124,10 +124,6 @@
     /**************** 
        Contact PAGE
     *****************/
-    #contact-section {
-        margin: 50px 0;
-    }
-    
     .contact-page-content {
         flex-direction: column;
     }
@@ -140,7 +136,7 @@
 /*************** 
     MOBILE 
 ****************/
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 765px) {
     /* Info Section */
     .info-p {
         font-size: 0.9rem;
@@ -209,6 +205,12 @@
     .services-right {
         margin-top: 30px;
         align-items: flex-start;
+    }
+
+    // CONTACT PAGE 
+    #contact-section {
+        margin: 50px 0 100px 0;
+        height: auto;
     }
 }   
 

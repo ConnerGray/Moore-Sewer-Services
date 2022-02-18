@@ -1,5 +1,6 @@
 #about-page {
-    margin: 50px 0;
+    height: 70vh;
+    display: flex;
 }
 
 .about-page-content {
@@ -24,11 +25,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-    margin: 30px 0;
-}
-
-.about-page-cards {
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .about-card-img {

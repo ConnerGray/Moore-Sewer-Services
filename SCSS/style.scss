@@ -68,22 +68,17 @@ nav {
 /******************** 
 *       HERO        *
 *********************/
-#hero-section {
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-size: cover;
-    background-position: right;
-    color: $white;
-}
-
 .hero-content {
     width: 50%;
 }
 
+.hero-h1 {
+    color: $white;
+}
+
 .hero-p {
     margin: 20px 0;
+    color: $white;
 }
 
 /******************** 

@@ -1,5 +1,5 @@
 /* Tablet */
-@media screen and (max-width: 1430px) {
+@media screen and (max-width: 1200px) {
 /* Mobile NAV */
     .nav-links {
         position: absolute;
@@ -124,6 +124,11 @@
     /**************** 
        Contact PAGE
     *****************/
+    #contact-section {
+        height: auto;
+        padding: 40px 0;
+    }
+
     .contact-page-content {
         flex-direction: column;
     }
@@ -202,10 +207,7 @@
     }
 
     // CONTACT PAGE 
-    #contact-section {
-        margin: 50px 0 100px 0;
-        height: auto;
-    }
+    
 }   
 
 /* SMALL PHONES */
